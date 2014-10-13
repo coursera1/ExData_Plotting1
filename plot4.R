@@ -35,7 +35,7 @@ legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), lty=c(
 plot(subdat$DateHour, subdat$Global_reactive_power, type="l", ylab = "Global_reactive_power", xlab="datetime")
 
 ## Plot in file
-dev.copy(device=png,"plot4.png", width=480, height=480, pointsize=8, units="px")
+dev.copy(device=png,"plot4.png", width=480, height=480, bg="white", pointsize=8, units="px")
 dev.off()
 dev.off()
 

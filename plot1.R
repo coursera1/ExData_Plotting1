@@ -20,6 +20,6 @@ hist(subdat$Global_active_power, col="red", main="Global Active Power", xlab="Gl
 
 
 ## Plot in file
-dev.copy(device=png,"plot1.png", width=480, height=480, pointsize=8, units="px")
+dev.copy(device=png,"plot1.png", width=480, height=480, bg="white", pointsize=8, units="px")
 dev.off()
 dev.off()

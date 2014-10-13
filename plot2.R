@@ -24,7 +24,7 @@ windows(
 plot(subdat$DateHour, subdat$Global_active_power, col="black", type="l", ylab="Global Active Power (kilowatts)", xlab="")
 
 ## Plot in file
-dev.copy(device=png,"plot2.png", width=480, height=480, pointsize=8, units="px")
+dev.copy(device=png,"plot2.png", width=480, height=480, bg="white", pointsize=8, units="px")
 dev.off()
 dev.off()
 
